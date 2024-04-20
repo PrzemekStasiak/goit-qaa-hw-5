@@ -45,7 +45,7 @@ const person = {                          // utworzenie obiektu "user"
 /////////////////////////Rozszerzony przykład
 
 const bookShelf = {                                  // zadeklarowanie obiektu o nazwie bookShlef
-    authors: ["J. R. R. Martin", "M. Sapmkowski"],  // nadanie tablicy o nazwie authors z wpisanymi 2 autorami
+    authors: ["J. R. R. Martin", "M. Sapkowski"],  // nadanie tablicy o nazwie authors z wpisanymi 2 autorami
     showName() {                                     //zadeklarowanie funkcji showName /metody
         console.log(this.authors);                  //Body funkcji - wyświetl w konsoli autorów
     },
